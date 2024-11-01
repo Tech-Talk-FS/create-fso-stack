@@ -1,0 +1,7 @@
+{
+	"name": "create-fso-stack",
+	"version": "1.0.0",
+	"bin": {
+	  "create-fso-stack": "./index.js"
+	}
+  }
