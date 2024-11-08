@@ -2,6 +2,20 @@
 	"name": "create-fso-stack",
 	"version": "1.0.0",
 	"bin": {
-	  "create-fso-stack": "./index.js"
+		"create-fso-stack": "./dist/index.js"
+	},
+	"scripts": {
+		"build": "tsc",
+		"dev": "tsc-watch",
+		"test": "npx create-fso-stack"
+	},
+	"devDependencies": {
+		"@types/node": "^22.9.0",
+		"tsc-watch": "^6.2.0"
+	},
+	"dependencies": {
+		"chalk": "^4.1.2",
+		"cross-spawn": "^7.0.5",
+		"ts-node": "^10.9.2"
 	}
-  }
+}
